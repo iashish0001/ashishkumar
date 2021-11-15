@@ -1,0 +1,18 @@
+Question 2 - Pseudo code
+
+1. we will have two loops onr for loop and inside the for loop there is a while loop.
+2. In the for loop we will iterate over the characters and in the while loop we will count the frequency of the character.
+For I in range str.length {
+    while str[i] != str[j] 
+           j++
+    Result = str[i] + j
+3. we will appened a string to kep track of the compressed string.
+4. We could have used hash map if it were a sorted string.
+3.we dont have to iterate the entire string again and again. we can simply check by i+j and i-j, to get the last index to continue counting.
+5.EX input = aaabbbbcccaaaaa
+output = a3b3c3a5
+
+Decompress
+1. we will have two variables which will keep track of the char and the integer respectively.
+2. inside the for loop we will print the char according to the frequency.
+ 
